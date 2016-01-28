@@ -1,0 +1,100 @@
+body {
+	margin: 0px;
+	font-family: Calibri;
+	background: url("../img/bg.jpg");
+	background-size: 100% auto;
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 91%;
+	text-align: center;
+	color: rgba(26, 26, 26, 0.7);
+}
+
+#logo{
+	text-align: center;
+	margin: 5% auto 1%;
+}
+
+#title{
+	text-align: center;
+	margin-bottom: 5%;
+	
+}
+
+.contentbox{
+	margin: 0 auto 3%;
+	width: 70%;
+	background: white;
+}
+
+#addalbum{
+	margin: 1% auto;
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color: rgba(26, 26, 26, 0.7);
+}
+
+#navbar{
+	text-align: center;
+	border-bottom: 3px solid #F2F2F2;
+}
+
+#navbar ul{
+	list-style-type: none;
+	list-style: none;
+	margin-right: 3.8%;
+}
+
+#navbar li{
+	display: inline-block;
+	margin: 2.5% 2% 1%;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+#navbar a {
+	text-decoration: none;
+	cursor: pointer;
+	color: rgba(26, 26, 26, 0.7);
+}
+#navbar a:hover {
+	color: #1186A8;
+}
+
+
+
+.albumgrid tr{
+	width: 100%;
+}
+
+.albumgrid {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.albumgrid img{
+	margin: 20px 10px 20px 10px;
+	width: 330px;
+	height: 330px;
+}
+
+.error{
+	color: red;
+}
+
+.message{
+	color: rgba(0, 64, 137, 0.7);
+}
+
+#photo{
+	width: 800px;
+	height:500px;
+}
+
+.caption{
+	font-weight: bold;
+}
+
+.onpage{
+	font-weight: bold;
+	color: rgba(0, 64, 137, 0.7);
+}
